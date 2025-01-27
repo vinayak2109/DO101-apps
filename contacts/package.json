@@ -1,9 +1,9 @@
 {
-  "name": "contacts",
+   "name": "contacts",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
+     "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
   },
   "dependencies": {
     "connect-flash": "0.1.1",
